@@ -1,0 +1,38 @@
+"NOME","ID","Ingrediente","Quantidade_volume_A","Medida_volume_A","Quantidade_peso_A","Medida_peso_A","Quantidade_volume_B","Medida_volume_B","Quantidade_peso_B","Medida_peso_B","Quantidade_volume_C","Medida_volume_C","Quantidade_peso_C","Medida_peso_C"
+"Geléia de Morango","id_0001","Morango",NA,NA,1,"kg",NA,NA,NA,NA,NA,NA,NA,NA
+"Geléia de Morango","id_0001","Açúcar",NA,NA,0.5,"kg",NA,NA,NA,NA,NA,NA,NA,NA
+"Geléia de Morango","id_0001","Limão","5.0","Gota",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Farinha de trigo branca",NA,NA,500,"g",NA,NA,500,"g",NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Manteiga",NA,NA,250,"g",NA,NA,250,"g",NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Cerveja clara","200.0","mL",NA,NA,"150.0","mL",NA,NA,NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Fermento químico em pó","1.0","Colher de sopa (rasa)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Açúcar refinado",NA,NA,NA,NA,"1.5","Colher de sopa",NA,NA,NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Sal",NA,NA,NA,NA,"2.0","Pitada",NA,NA,NA,NA,NA,NA
+"Biscoitinhos de Cerveja do Natal","id_0002","Açucar cristal","Suficiente para envolver os biscoitinhos",NA,NA,NA,"Suficiente para envolver os biscoitinhos",NA,NA,NA,NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Farinha de trigo branca, peneirada",NA,NA,200,"g",NA,NA,300,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Açúcar refinado",NA,NA,250,"g",NA,NA,300,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Cacau em pó, não adoçado",NA,NA,100,"g",NA,NA,225,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Canela em pó",NA,NA,2,"g",NA,NA,2,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Bicarbonato de sódio",NA,NA,4,"g",NA,NA,4,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Cremor tártaro",NA,NA,4,"g",NA,NA,4,"g",NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Leite","250.0","mL",NA,NA,"250.0","mL",NA,NA,NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Raspas de casca de laranja","1.0","Laranja",NA,NA,"1.0","Laranja",NA,NA,NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Manteiga","Apenas o suficiente para untar",NA,NA,NA,"Apenas o suficiente para untar",NA,NA,NA,NA,NA,NA,NA
+"Torta Bilbolbul","id_0003","Farinha finíssima de rosca","Apenas o suficiente para untar",NA,NA,NA,"Apenas o suficiente para untar",NA,NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Milho verde","1.0","Lata",NA,NA,"4.0","Lata",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Leite","1e1/2","Xícara",NA,NA,"6.0","Xícara",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Ovos","2.0","Un",NA,NA,"6.0","Un",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Manteiga","1.0","Colher de sopa",NA,NA,"4.0","Colher de sopa",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Açúcar","1.0","Colher de sobremesa",NA,NA,"3.0","Colher de sobremesa",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Sal","1.0","Pitada",NA,NA,"3.0","Pitada",NA,NA,NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Manteiga",NA,NA,160,"g",NA,NA,NA,NA,NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Açúcar refinado",NA,NA,70,"g",NA,NA,60,"g","3.0","col (?)",NA,NA
+"Crostata di Ricotta","id_0005","Farinha de trigo branca",NA,NA,120,"g",NA,NA,30,"g",NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Fécula de Batata ou Amido de milho",NA,NA,120,"g",NA,NA,NA,NA,NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Raspa de casca de limão","1.0","Limão",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Gema",NA,NA,NA,NA,"2.0","Un",NA,NA,"3.0","Un",NA,NA
+"Crostata di Ricotta","id_0005","Clara",NA,NA,NA,NA,NA,NA,NA,NA,"3.0","Un",NA,NA
+"Crostata di Ricotta","id_0005","Leite",NA,NA,NA,NA,"1.0","Copo",200,"mL",NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Ricota",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,300,"g"
+"Crostata di Ricotta","id_0005","Frutas cristalizadas e canela",NA,NA,NA,NA,NA,NA,NA,NA,"A gosto",NA,NA,NA
+"Crostata di Ricotta","id_0005","Baunilha",NA,NA,NA,NA,"A gosto",NA,NA,NA,NA,NA,NA,NA

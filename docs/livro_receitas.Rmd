@@ -1,0 +1,58 @@
+---
+title: "Receitas de família"
+author: "Família Mortara"
+date: ""
+output:
+  rmdformats::readthedown:
+    self_contained: true
+    thumbnails: false
+    lightbox: false
+    toc_depth: 3
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, echo = FALSE, results = 'asis')
+library(knitr) # para compilar arquivo
+library(rmdformats) # para formatar o output
+library(dplyr) # para manipular os dados
+library(glue) # para facilitar a repetição de uma operação
+```
+
+```{r objetos}
+receitas_id <- read.csv("dados/tabela_01.csv")
+ingredientes <- read.csv("dados/tabela_02.csv")
+
+receitas_id <- arrange(receitas_id, Categoria, Subcategoria, NOME) %>% 
+  filter(!is.na(NOME))
+categorias <- unique(receitas_id$Categoria)
+
+ingredientes[is.na(ingredientes)] <- ""
+
+ingredientes$string <- paste("-", 
+                             ingredientes$Quantidade_volume_A, 
+                             ingredientes$Medida_volume_A,
+                             ingredientes$Ingrediente,  
+                             "\n\n")
+
+receitas <- left_join(receitas_id, ingredientes, by = c("NOME", "ID"))
+```
+
+
+```{r receitas}
+for (categoria in categorias) {
+  
+  cat(glue::glue("\n\n## {tools::toTitleCase(categoria)}\n\n\n\n"))
+  
+  df <- filter(receitas, Categoria == categoria)
+  nomes <- unique(df$NOME)  
+  
+  for (nome in nomes) {
+    cat(glue::glue("\n\n### {nome}\n\n"))
+    cat("**Ingredientes:**\n\n")
+    cat(glue::glue("{df$string[df$NOME == nome]}\n\n\n\n"))
+    cat(glue::glue("**Preparo:** {unique(df$Preparo[df$NOME == nome])}\n\n"))
+  }
+}  
+```
+
+  
