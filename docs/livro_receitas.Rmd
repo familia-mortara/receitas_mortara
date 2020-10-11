@@ -19,20 +19,27 @@ library(glue) # para facilitar a repetição de uma operação
 ```
 
 ```{r objetos}
+source("scripts/01-convert_data.R")
 receitas_id <- read.csv("dados/tabela_01.csv")
 ingredientes <- read.csv("dados/tabela_02.csv")
 
-receitas_id <- arrange(receitas_id, Categoria, Subcategoria, NOME) %>% 
+receitas_id <- arrange(receitas_id, Categoria, NOME) %>% 
   filter(!is.na(NOME))
 categorias <- unique(receitas_id$Categoria)
 
 ingredientes[is.na(ingredientes)] <- ""
 
 ingredientes$string <- paste("-", 
-                             ingredientes$Quantidade_volume_A, 
+                             ifelse(ingredientes$Quantidade_volume_A != "", 
+                                    gsub("\\.0", "", ingredientes$Quantidade_volume_A), 
+                                    "\\s"),
                              ingredientes$Medida_volume_A,
-                             ingredientes$Ingrediente,  
-                             "\n\n")
+                             ifelse(ingredientes$Quantidade_peso_A != "", 
+                                    ingredientes$Quantidade_peso_A, 
+                                    "\\s"),
+                             ingredientes$Medida_peso_A,
+                             ingredientes$Ingrediente)  
+                             #"\n\n\n\n")
 
 receitas <- left_join(receitas_id, ingredientes, by = c("NOME", "ID"))
 ```
@@ -45,14 +52,36 @@ for (categoria in categorias) {
   
   df <- filter(receitas, Categoria == categoria)
   nomes <- unique(df$NOME)  
+  checkbox <-  '<input type="checkbox" checked> </input>'
   
   for (nome in nomes) {
+    
+    # apenas dados da receita
+    df_receita <- filter(receitas, NOME == nome)
+    
+    # tipo de dieta
+    veg_check <- ifelse(all(df_receita$Dieta_Vegetariana == 'Sim'), 
+                        paste(checkbox, 'Vegetariana'), "")
+    lac_check <- ifelse(all(df_receita$Dieta_Sem_lactose == 'Sim'), 
+                        paste(checkbox, 'Sem lactose'), "")
+    gluten_check <- ifelse(all(df_receita$Dieta_Sem_glúten == 'Sim'), 
+                        paste(checkbox, 'Sem glúten'), "")
+    
+    # Receita
+    ## nome
     cat(glue::glue("\n\n### {nome}\n\n"))
-    cat("**Ingredientes:**\n\n")
+    ## trabalho e quem
+    cat(glue::glue("*É **{tolower(unique(df_receita$Trabalho))}**! Receita de {unique(df_receita$Quem_fazia)}.*\n\n\n\n"))
+    ## tipo de dieta
+    cat(glue::glue("Para dietas: {paste(veg_check, lac_check, gluten_check)}\n\n"))
+    ## ingredientes
+    cat("\n\n**Ingredientes:**\n\n")
     cat(glue::glue("{df$string[df$NOME == nome]}\n\n\n\n"))
-    cat(glue::glue("**Preparo:** {unique(df$Preparo[df$NOME == nome])}\n\n"))
+    ## preparo
+    cat(glue::glue("**Preparo:** {unique(df$Preparo[df$NOME == nome])}\n\n\n\n"))
+    cat(glue::glue("**Fonte**: {unique(df_receita$Fonte)}\n\n"))
   }
 }  
 ```
 
-  
+
