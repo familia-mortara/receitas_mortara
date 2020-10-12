@@ -20,7 +20,7 @@
 "Torta Bilbolbul","id_0003","Manteiga (apenas o suficiente para untar)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Torta Bilbolbul","id_0003","Farinha finíssima de rosca (apenas o suficiente para untar)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Sufle/Souffle de Milho Verde","id_0004","Milho verde","1.0","Lata",NA,NA,"4.0","Lata",NA,NA,NA,NA,NA,NA
-"Sufle/Souffle de Milho Verde","id_0004","Leite","1 1/2","Xícara",NA,NA,"6.0","Xícara",NA,NA,NA,NA,NA,NA
+"Sufle/Souffle de Milho Verde","id_0004","Leite","1.5","Xícara",NA,NA,"6.0","Xícara",NA,NA,NA,NA,NA,NA
 "Sufle/Souffle de Milho Verde","id_0004","Ovos","2.0","Un",NA,NA,"6.0","Un",NA,NA,NA,NA,NA,NA
 "Sufle/Souffle de Milho Verde","id_0004","Manteiga","1.0","Colher de sopa",NA,NA,"4.0","Colher de sopa",NA,NA,NA,NA,NA,NA
 "Sufle/Souffle de Milho Verde","id_0004","Açúcar","1.0","Colher de sobremesa",NA,NA,"3.0","Colher de sobremesa",NA,NA,NA,NA,NA,NA
@@ -32,7 +32,7 @@
 "Crostata di Ricotta","id_0005","Raspa de casca de um limão",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
 "Crostata di Ricotta","id_0005","Gema","2.0","Un",NA,NA,"2.0","Un",NA,NA,"3.0","Un",NA,NA
 "Crostata di Ricotta","id_0005","Clara",NA,NA,NA,NA,NA,NA,NA,NA,"3.0","Un",NA,NA
-"Crostata di Ricotta","id_0005","Leite","200.0","ml",NA,NA,"1.0","Copo",200,"mL",NA,NA,NA,NA
+"Crostata di Ricotta","id_0005","Leite","200.0","ml",NA,NA,"1.0","Copo",200,"ml",NA,NA,NA,NA
 "Crostata di Ricotta","id_0005","Ricota",NA,NA,300,"g",NA,NA,NA,NA,NA,NA,300,"g"
 "Crostata di Ricotta","id_0005","Frutas cristalizadas e canela (a gosto)",NA,NA,NA,NA,NA,NA,NA,NA,"A gosto",NA,NA,NA
 "Crostata di Ricotta","id_0005","Baunilha",NA,NA,NA,NA,"A gosto",NA,NA,NA,NA,NA,NA,NA

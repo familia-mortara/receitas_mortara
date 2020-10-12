@@ -1,0 +1,6 @@
+book_filename: "livro_receitas"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: ""
+output_dir: "book_output"

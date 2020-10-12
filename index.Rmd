@@ -1,0 +1,14 @@
+---
+title: "Receitas de família"
+author: "Família Mortara"
+date: ""
+output:
+  bookdown::html_document2:
+  toc: true
+  number_sections: false
+  theme: journal
+---
+
+# O que você precisa saber
+
+Este é um compilado das receitas favoritas da família Mortara. Use por sua conta e risco.

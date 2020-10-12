@@ -1,19 +1,9 @@
----
-title: "Receitas de família"
-author: "Família Mortara"
-date: ""
-output:
-  rmdformats::readthedown:
-    self_contained: true
-    thumbnails: false
-    lightbox: false
-    toc_depth: 3
----
+# Receitas
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, echo = FALSE, results = 'asis')
 library(knitr) # para compilar arquivo
-library(rmdformats) # para formatar o output
+library(rmdformats) # para forma  tar o output
 library(dplyr) # para manipular os dados
 library(glue) # para facilitar a repetição de uma operação
 library(stringr)
@@ -56,10 +46,10 @@ for (categoria in categorias) {
   
   dieta <- function(tipo) {
     tipos <- receitas_id %>% select(starts_with("Dieta")) %>% names()
-    figs <- c("../figs/vegetarian.png", 
-                "../figs/vegan.png", 
-                "../figs/gluten-free.png", 
-                "../figs/lactose-free.png")
+    figs <- c("figs/vegetarian.png", 
+                "figs/vegan.png", 
+                "figs/gluten-free.png", 
+                "figs/lactose-free.png")
     names(figs) <- tipos
     path_to_image <- figs[names(figs) == tipo]
     #img <- gsub("path_to_image", path_to_image,
