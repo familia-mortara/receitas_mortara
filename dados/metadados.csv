@@ -1,7 +1,7 @@
 "Coluna","Descrição","Tabela","X4"
 "NOME","Nome da receita","tabela_01; tabela_02",NA
 "ID","ID, apenas para organização e para relacionar as duas tabelas","tabela_01; tabela_02","* Pensar em campo para inserir foto das fichas, etc.."
-"Categoria","Doce; Salgado","tabela_01",NA
+"Categoria","Doce; Salgado","tabela_01","ELIMINAR"
 "Subcategoria","Biscoitos; Geléias e Compotas; Tortas e Bolos doces; Outros doces; Arroz; Carnes; Conservas; Massas; Molhos; Ovos e Saladas; Sanduíches e Patês; Tortas e Bolos salgados","tabela_01",NA
 "Dieta_Vegetariana","Sim/Não","tabela_01",NA
 "Dieta_Vegana","Sim/Não","tabela_01",NA
@@ -13,24 +13,20 @@
 "Trabalho","Nada trabalhoso; Pouco trabalhoso; Trabalhoso; Muito trabalhoso; Nossa, que trabalhoso!","tabela_01",NA
 "Tempo_preparo","Em horas","tabela_01",NA
 "Rendimento",NA,"tabela_01",NA
+"Rendimento_outras_porcoes","Rendimento se houver colunas Quantidade_outras_porcoes, Un_medida_outras_porcoes na tabela 02","tabela_01",NA
+"Adaptacao_por","Quem adaptou a receita, se houver colunas Quantidade_adaptada e Un_medida_outras_porcoes","tabela_01",NA
 "Dicas_&_Variações","Outras formas de servir: comer quente e fria, com molho x, etc...","tabela_01",NA
 "Receita_A_label","Original ou Para x pessoas ou Parte 1","tabela_01",NA
 "Receita_B_label","Adaptada ou Para x pessoas ou Parte 2","tabela_01",NA
 "Receita_C_label","Adaptada ou Para x pessoas ou Parte 3","tabela_01",NA
-"Preparo",NA,"tabela_01","Definir padrao: texto corrido ou tópicos? "
+"Preparo",NA,"tabela_01","Definir padrao: texto corrido ou tópicos? Tópicos"
 "Responsável_teste","Nome","tabela_01",NA
 "Avaliação_teste","Explicar diferenças entre versão original e revisada","tabela_01",NA
 "Dúvidas_teste","Dúvidas para o responsável pelo teste","tabela_01","Campo temporário - eliminar quando receitas estiverem completinhas"
 "Ingrediente","Ingrediente a ser usado na receita","tabela_02",NA
-"Quantidade_volume_A","Quantidade do ingrediente em volume (xícara, colher)","tabela_02","* ajustar campo de volume para permitir fracao - alguns campos desta coluna bloqueados para texto"
-"Medida_volume_A","xicara; colher de sopa; colher de chá","tabela_02",NA
-"Quantidade_peso_A","Quantidade do ingrediente em gramas","tabela_02","* ajustar campo de volume para permitir fracao"
-"Medida_peso_A","quilo; grama","tabela_02",NA
-"Quantidade_volume_B","Quantidade do ingrediente em volume (xícara, colher)","tabela_02",NA
-"Medida_volume_B","xicara; colher de sopa; colher de chá","tabela_02",NA
-"Quantidade_peso_B","Quantidade do ingrediente em gramas","tabela_02",NA
-"Medida_peso_B","quilo; grama","tabela_02",NA
-"Quantidade_volume_C","Quantidade do ingrediente em volume (xícara, colher)","tabela_02",NA
-"Medida_volume_C","xicara; colher de sopa; colher de chá","tabela_02",NA
-"Quantidade_peso_C","Quantidade do ingrediente em gramas","tabela_02",NA
-"Medida_peso_C","quilo; grama","tabela_02",NA
+"Quantidade_A","Quantidade do ingrediente","tabela_02","Campo formatado como texto para permitir numero e fracao"
+"Un_medida_A","Unidade de medida do ingrediente","tabela_02","Padronizar - lista de validacao? mL e não ml, g e não gr, etc.."
+"Quantidade_B","Quantidade do ingrediente","tabela_02","* ajustar campo de volume para permitir fracao"
+"Un_medida_B","Unidade de medida do ingrediente","tabela_02",NA
+"Quantidade_C","Quantidade do ingrediente","tabela_02",NA
+"Un_medida_C","Unidade de medida do ingrediente","tabela_02",NA
