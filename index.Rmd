@@ -6,7 +6,7 @@ documentclass: book
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 github-repo: familia-mortara/receitas_mortara
-url: 'http\://familia-mortara.github.io/'
+url: 'http\://familia-mortara.github.io/receitas_mortara'
 ---
 
 # O que você precisa saber
