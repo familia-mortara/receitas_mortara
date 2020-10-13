@@ -5,7 +5,7 @@ date: ""
 documentclass: book
 site: bookdown::bookdown_site
 output: bookdown::gitbook
-github-repo: sarmortara/receitas_mortara
+github-repo: familia-mortara/receitas_mortara
 url: 'http\://familia-mortara.github.io/'
 ---
 
