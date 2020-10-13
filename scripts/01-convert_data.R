@@ -29,7 +29,7 @@ receitas_id$Tempo_preparo_string <- ifelse(is.na(receitas_id$Tempo_preparo),
 ## memória
 receitas_id$memoria_string <- ifelse(is.na(receitas_id$Memórias),
                                      "",
-                                     gsub(">", "\n\n\n\n    ", receitas_id$Memórias))
+                                     gsub(">", "\n\n >", receitas_id$Memórias))
 
 ## dicas
 receitas_id$dicas_string <- ifelse(is.na(receitas_id$`Dicas_&_Variações`),

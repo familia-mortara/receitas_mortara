@@ -3,7 +3,6 @@
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, echo = FALSE, results = 'asis')
 library(knitr) # para compilar arquivo
-library(rmdformats) # para forma  tar o output
 library(dplyr) # para manipular os dados
 library(glue) # para facilitar a repetição de uma operação
 library(stringr)
@@ -69,15 +68,14 @@ for (categoria in categorias) {
     ## trabalho e tempo de preparo
     cat(glue("\n\n\n\n*É **{tolower(df_receita$Trabalho)}**!
              {df_receita$Tempo_preparo_string}*\n\n\n\n"))
-    ## tipo de dieta
-    cat(str_interp('${veg_check} ${vegan_check} ${lac_check} ${gluten_check} \n\n'))
-    ## ingredientes
-    cat("\n\n**Ingredientes:**\n\n")
+    ## ingredientes e tipo de dieta
+    cat(str_interp('\n\n**Ingredientes**    ${veg_check} ${vegan_check} ${lac_check} ${gluten_check} \n\n'))
+    #cat("\n\n**Ingredientes:**\n\n")
     cat(glue(" {df_ingrediente$string} \n\n\n\n"))
     # rendimento
     cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
     ## preparo
-    cat(glue("**Preparo:** {df_receita$preparo_string}\n\n\n\n"))
+    cat(glue("\n\n **Preparo** \n\n {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))
     cat(glue("{df_receita$fonte_string}\n\n"))
   }

@@ -5,6 +5,7 @@
 
 *.xlsx
 *.html
+*.rds
 rsconnect/
 libs/
 docs/
