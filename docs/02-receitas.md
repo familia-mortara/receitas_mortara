@@ -61,10 +61,10 @@
 
  *Original* 
 
- amassa-se tudo muito bem, fazem-se então rolinhos de um dedo de espessura, e cortam-se os mesmos em pedaços bem miúdos. Passa-se açúcar cristal e assa-se em forno bem temperado;
+ Amassa-se tudo muito bem, fazem-se então rolinhos de um dedo de espessura, e cortam-se os mesmos em pedaços bem miúdos. Passa-se açúcar cristal e assa-se em forno bem temperado.
 
 
- *Adaptada* 
+ *Adaptado* 
 
  Misturar os ingredientes secos, adicionar a manteiga gelada em cubos e, com as pontas dos dedos, misturar até ficar na consistência de uma farofa grossa. Adicionar a cerveja e misturar o mínimo necessário para ter uma bola de massa homogênea. Refrigerar por pelo menos 30 minutos e enquanto isso, preaquecer forno a 210 ºC . Fazer rolinhos finos, na espessura do dedo mindinho e cortá-los (tesoura foi o que funcionou melhor) em pedaços bem miúdos, de mais ou menos 0,5 cm. Mergulhar os pedacinhos no açúcar cristal, tirar o excesso com um escorredor de macarrão (furos grandes), espalhar bem na forma e assar por 15 minutos a 210 ºC.
 
@@ -85,7 +85,9 @@
 
 ![](figs/vegetarian.png){width=3%} ![](figs/vegan.png){width=3%} ![](figs/lactose-free.png){width=3%} ![](figs/gluten-free.png){width=3%} 
 
-"Tantos lanches da tarde à base de torrada com geléia e manteiga na casa da vó" Sara
+
+
+ > "Tantos lanches da tarde à base de torrada com geléia e manteiga na casa da vó" Sara
 
 
 *É **pouco trabalhoso**!
@@ -233,9 +235,9 @@
  amassar a manteiga com as raspas de limão. Adicionar a farinha e a fécula e misturar até formar uma massa homogênea. Formar uma bola e deixar descansar em lugar fresco (de preferência na geladeira) por, pelo menos, meia hora;
 
 
- *Creme* 
+ *Creme de confeiteiro* 
 
- de confeiteiro: em uma tigela misturar bem as gemas com o açúcar e incorporar a farinha. Levar o leite com a baunilha ao fogo e quando estiver próximo de ferver, tirar do fogo e "temperar"a mistura de ovos, colocando o leite quente bem aos poucos, mexendo vigorosamente com um fouet a cada adição para impedir que as gemas cozinhem. Assim que o leite estiver completamente incorporado, voltar mistura de ovos e leite para panela e levar ao fogo baixo, mexendo constantemente, até mistura engrossar. Reservar e deixar esfriar em temperatura ambiente;
+ em uma tigela misturar bem as gemas com o açúcar e incorporar a farinha. Levar o leite com a baunilha ao fogo e quando estiver próximo de ferver, tirar do fogo e "temperar"a mistura de ovos, colocando o leite quente bem aos poucos, mexendo vigorosamente com um fouet a cada adição para impedir que as gemas cozinhem. Assim que o leite estiver completamente incorporado, voltar mistura de ovos e leite para panela e levar ao fogo baixo, mexendo constantemente, até mistura engrossar. Reservar e deixar esfriar em temperatura ambiente;
 
 
  *Creme de ricota* 
@@ -256,7 +258,9 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 
 ![](figs/vegetarian.png){width=3%}    
 
-"Era um dos bolos preferidos do vovô Guido. Não precisava de prato nem talheres"
+
+
+ > "Era um dos bolos preferidos do vovô Guido. Não precisava de prato nem talheres"
 
 
 *É **nada trabalhoso**!
