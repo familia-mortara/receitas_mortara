@@ -4,6 +4,7 @@ author: "por várias pessoas da família Mortara"
 date: ""
 documentclass: book
 site: bookdown::bookdown_site
+output: bookdown::gitbook
 github-repo: sarmortara/receitas_mortara
 url: 'http\://familia-mortara.github.io/'
 ---
