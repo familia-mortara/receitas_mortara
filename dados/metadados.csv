@@ -7,9 +7,9 @@
 "Dieta_Vegana","Sim/Não","tabela_01",NA
 "Dieta_Sem_glúten","Sim/Não","tabela_01",NA
 "Dieta_Sem_lactose","Sim/Não","tabela_01",NA
-"Quem_fazia","Anita; Brigida (Carmen); Carmen; Tia Elisa; Martha; Raquel; Valéria, Tia Zita","tabela_01","Definir se restringimos ou nao valores"
-"Fonte","Il Talismano; ficheiro vó Martha; tio Valério; Livro de Receitas da Raquel; Anita; Valéria","tabela_01","Definir se restringimos ou nao valores"
-"Memórias",NA,"tabela_01","Mais de uma memória; definir como separar"
+"Quem_fazia","Anita; Brigida (Carmen); Carmen; Tia Elisa; Martha; Raquel; Valéria, Tia Zita","tabela_01","Restringir valores"
+"Fonte","Il Talismano; ficheiro vó Martha; tio Valério; Livro de Receitas da Raquel; Anita; Valéria","tabela_01","Restringir valores"
+"Memórias","Memória entre aspas seguida do nome. Mais de uma memória separar memórias com >. Exemplo: > ""Uma delícia!"" Fulana. > ""Muito bom mesmo!"" Ciclana.  ","tabela_01",NA
 "Trabalho","Nada trabalhoso; Pouco trabalhoso; Trabalhoso; Muito trabalhoso; Nossa, que trabalhoso!","tabela_01",NA
 "Tempo_preparo","Em horas","tabela_01",NA
 "Rendimento",NA,"tabela_01",NA

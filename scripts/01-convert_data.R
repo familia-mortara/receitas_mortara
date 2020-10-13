@@ -7,8 +7,10 @@ library(dplyr)
 # Lendo os dados
 ## planilha original aqui: https://docs.google.com/spreadsheets/d/1xiJLw7yNojqxMAtKIie7MqhOaWVAt0RJZ0QW4OnhoCo/edit#gid=1047674169
 metadados <- read.xlsx("dados/proposta_template_receitas.xlsx", sheet = 1)
-receitas_id <- read.xlsx("dados/proposta_template_receitas.xlsx", sheet = 2)
-ingredientes <- read.xlsx("dados/proposta_template_receitas.xlsx", sheet = 3)
+receitas_id <- read.xlsx("dados/proposta_template_receitas.xlsx", sheet = 2) %>%
+  filter(!is.na(ID))
+ingredientes <- read.xlsx("dados/proposta_template_receitas.xlsx", sheet = 3)%>%
+  filter(!is.na(ID))
 
 # escrevendo os dados crus
 write.csv(metadados, "dados/metadados.csv", row.names = FALSE)
@@ -45,6 +47,22 @@ receitas_id$rendimento_string <- ifelse(is.na(receitas_id$Rendimento),
                                    paste("**Rendimento:**", receitas_id$Rendimento))
 
 
+## preparo
+# identificar subitem
+subitem <- function(x){
+  if (str_detect(x, "<")) {
+    item_name <- qdapRegex::ex_between(x, "<", ">")[[1]]
+    item_original <- paste0("< ", item_name , " >")
+    item_replace <- paste0("\n\n *", item_name , "* \n\n")
+    names(item_replace) <- item_original
+    string <- str_replace_all(x, item_replace)
+  } else {
+    string <- x
+  }
+  return(string)
+}
+
+receitas_id$preparo_string <- unlist(lapply(receitas_id$Preparo, subitem))
 
 # formatando os ingredientes para entrada no texto -----------------------------
 ingredientes[is.na(ingredientes)] <- ""

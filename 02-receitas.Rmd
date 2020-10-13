@@ -77,7 +77,7 @@ for (categoria in categorias) {
     # rendimento
     cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
     ## preparo
-    cat(glue("**Preparo:** {df_receita$Preparo}\n\n\n\n"))
+    cat(glue("**Preparo:** {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))
     cat(glue("{df_receita$fonte_string}\n\n"))
   }
