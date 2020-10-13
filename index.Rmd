@@ -2,13 +2,8 @@
 title: "Receitas da família Mortara"
 author: "por várias pessoas da família Mortara"
 date: ""
-output:
-  bookdown::html_document2:
-  toc: true
-  number_sections: false
-  theme: journal
-  bookdown::pdf_book:
-    template: preamble.tex
+documentclass: book
+github-repo: sarmortara/receitas_mortara
 ---
 
 # O que você precisa saber

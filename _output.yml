@@ -1,5 +1,6 @@
 bookdown::gitbook:
   css: style.css
+  number_sections: false
 config:
   toc:
     before: |
@@ -10,8 +11,7 @@ config:
   download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
-  in_header: preamble.tex
-latex_engine: xelatex
-citation_package: natbib
-keep_tex: yes
+    in_header: preamble.tex
+  latex_engine: xelatex
+  number_sections: false
 bookdown::epub_book: default
