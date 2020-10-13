@@ -24,7 +24,7 @@ receitas_id$Tempo_preparo_unidade <- ifelse(receitas_id$Tempo_preparo > 1,
                                             "horas", "hora")
 receitas_id$Tempo_preparo_string <- ifelse(is.na(receitas_id$Tempo_preparo),
                                            "",
-                                           paste("Tempo de preparo de ", receitas_id$Tempo_preparo, receitas_id$Tempo_preparo_unidade))
+                                           paste0("Tempo de preparo de ", receitas_id$Tempo_preparo, " ", receitas_id$Tempo_preparo_unidade, "."))
 
 ## memória
 receitas_id$memoria_string <- ifelse(is.na(receitas_id$Memórias),
@@ -34,7 +34,7 @@ receitas_id$memoria_string <- ifelse(is.na(receitas_id$Memórias),
 ## dicas
 receitas_id$dicas_string <- ifelse(is.na(receitas_id$`Dicas_&_Variações`),
                                    "",
-                                   paste("**Dicas:**", receitas_id$`Dicas_&_Variações`))
+                                   paste("**Dica:**", receitas_id$`Dicas_&_Variações`))
 
 ## fonte
 receitas_id$fonte_string <- ifelse(is.na(receitas_id$Fonte),
@@ -44,7 +44,7 @@ receitas_id$fonte_string <- ifelse(is.na(receitas_id$Fonte),
 ## rendimento
 receitas_id$rendimento_string <- ifelse(is.na(receitas_id$Rendimento),
                                    "",
-                                   paste("**Rendimento:**", receitas_id$Rendimento))
+                                   paste("Rendimento:", receitas_id$Rendimento))
 
 
 ## preparo

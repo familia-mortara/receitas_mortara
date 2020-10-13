@@ -14,6 +14,8 @@
 *Receita de Tia Elisa*
 
 
+![](figs/vegetarian.png){width=3%}    
+
 
 
  > "Eu gosto mais daqueles que ficam mais escuros, mas isto é preferência individual" Tio Valerio 
@@ -23,12 +25,13 @@
 
 
 *É **trabalhoso**!
-             Tempo de preparo de  3 horas*
+             Tempo de preparo de 3 horas.
+             Rendimento: Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha*
 
 
 
 
-**Ingredientes**    ![](figs/vegetarian.png){width=3%}    
+**Ingredientes**
 
 - 500  Farinha de trigo branca 
 
@@ -42,17 +45,13 @@
  - 1 Colher de sopa (rasa) Fermento químico em pó 
 
 
- -     Açúcar refinado 
+ - \s  Açúcar refinado 
 
 
- -     Sal 
+ - \s  Sal 
 
 
- -     Açúcar cristal (suficiente para envolver os biscoitinhos) 
-
-
-
-**Rendimento:** Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha
+ - \s  Açúcar cristal (suficiente para envolver os biscoitinhos) 
 
 
 
@@ -71,7 +70,7 @@
 
 
 
-**Dicas:** Fazer com alguns dias de antecedência e guardar em um pote hermético.
+**Dica:** Fazer com alguns dias de antecedência e guardar em um pote hermético.
 
 
 **Fonte:** Tio Valério
@@ -84,16 +83,19 @@
 *Receita de Vó Martha*
 
 
+![](figs/vegetarian.png){width=3%} ![](figs/vegan.png){width=3%} ![](figs/lactose-free.png){width=3%} ![](figs/gluten-free.png){width=3%} 
+
 "Tantos lanches da tarde à base de torrada com geléia e manteiga na casa da vó" Sara
 
 
 *É **pouco trabalhoso**!
-             Tempo de preparo de  1 hora*
+             Tempo de preparo de 1 hora.
+             Rendimento: 4 porções*
 
 
 
 
-**Ingredientes**    ![](figs/vegetarian.png){width=3%} ![](figs/vegan.png){width=3%} ![](figs/lactose-free.png){width=3%} ![](figs/gluten-free.png){width=3%} 
+**Ingredientes**
 
 - 1 kg Morango 
 
@@ -105,16 +107,12 @@
 
 
 
-**Rendimento:** 4 porções
-
-
-
  **Preparo** 
 
  Cortar os morangos em rodelas e levar ao fogo com o açúcar e as gotas de limão. Mexer constantemente e deixar cozinhar até encorpar.
 
 
-**Dicas:** Fazer em grande quantidade pois é uma delícia
+**Dica:** Fazer em grande quantidade pois é uma delícia
 
 
 **Fonte:** Vó Martha
@@ -127,16 +125,19 @@
 *Receita de Vó Martha e Carmen*
 
 
+![](figs/vegetarian.png){width=3%}   ![](figs/gluten-free.png){width=3%} 
+
 
 
 
 *É **nada trabalhoso**!
-             *
+             
+             Rendimento: Porções para 4 e 20 pessoas*
 
 
 
 
-**Ingredientes**    ![](figs/vegetarian.png){width=3%}   ![](figs/gluten-free.png){width=3%} 
+**Ingredientes**
 
 - 1 Lata Milho verde 
 
@@ -157,16 +158,12 @@
 
 
 
-**Rendimento:** Porções para 4 e 20 pessoas
-
-
-
  **Preparo** 
 
  Escorrer o milho e refogar na manteiga. Adicionar o leite, o açúcar e deixe esfriar. Adicionar os ovos batidos, colocar em uma travessa untada e levar ao forno. Assar a xºC, até endurecer. Deve ficar úmido. Não assar demais para não secar. 
 
 
-**Dicas:** Vovó Martha servia com escalopinho de filé mignon, com molho de vinho
+**Dica:** Vovó Martha servia com escalopinho de filé mignon, com molho de vinho
 
 
 **Fonte:** Ficheiros de Receitas de Carmen e Martha
@@ -179,16 +176,19 @@
 *Receita de Vó Martha*
 
 
+![](figs/vegetarian.png){width=3%}    
+
 
 
 
 *É **trabalhoso**!
+             
              *
 
 
 
 
-**Ingredientes**    ![](figs/vegetarian.png){width=3%}    
+**Ingredientes**
 
 - 160 g Manteiga 
 
@@ -202,13 +202,13 @@
  - 120 g Fécula de Batata ou Amido de milho 
 
 
- -     Raspa de casca de um limão 
+ - \s  Raspa de casca de um limão 
 
 
  - 2 Un Gema 
 
 
- -     Clara 
+ - \s  Clara 
 
 
  - 200 mL Leite 
@@ -217,14 +217,10 @@
  - 300 g Ricota 
 
 
- -     Frutas cristalizadas e canela (a gosto) 
+ - \s  Frutas cristalizadas e canela (a gosto) 
 
 
- -     Baunilha 
-
-
-
-
+ - \s  Baunilha 
 
 
 
@@ -258,16 +254,19 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 *Receita de Vó Martha*
 
 
+![](figs/vegetarian.png){width=3%}    
+
 "Era um dos bolos preferidos do vovô Guido. Não precisava de prato nem talheres"
 
 
 *É **nada trabalhoso**!
-             *
+             
+             Rendimento: 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro*
 
 
 
 
-**Ingredientes**    ![](figs/vegetarian.png){width=3%}    
+**Ingredientes**
 
 - 200 g Farinha de trigo branca, peneirada 
 
@@ -290,17 +289,13 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
  - 250 mL Leite 
 
 
- -     Raspas de casca de uma laranja 
+ - \s  Raspas de casca de uma laranja 
 
 
- -     Manteiga (apenas o suficiente para untar) 
+ - \s  Manteiga (apenas o suficiente para untar) 
 
 
- -     Farinha finíssima de rosca (apenas o suficiente para untar) 
-
-
-
-**Rendimento:** 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro
+ - \s  Farinha finíssima de rosca (apenas o suficiente para untar) 
 
 
 
@@ -310,7 +305,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 
 
 
-**Dicas:** Servir com creme de leite batido
+**Dica:** Servir com creme de leite batido
 
 
 **Fonte:** Il Talismano della Felicità

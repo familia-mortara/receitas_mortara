@@ -63,17 +63,18 @@ for (categoria in categorias) {
     cat(glue("\n\n### {nome}\n\n"))
     ##quem
     cat(glue("*Receita de {df_receita$Quem_fazia}*\n\n\n\n"))
+    cat(str_interp('${veg_check} ${vegan_check} ${lac_check} ${gluten_check} \n\n'))
     ## memoria
     cat(str_interp('${df_receita$memoria_string}'))
-    ## trabalho e tempo de preparo
+    ## trabalho, tempo de preparo e rendimento
     cat(glue("\n\n\n\n*É **{tolower(df_receita$Trabalho)}**!
-             {df_receita$Tempo_preparo_string}*\n\n\n\n"))
+             {df_receita$Tempo_preparo_string}
+             {df_receita$rendimento_string}*\n\n\n\n"))
     ## ingredientes e tipo de dieta
-    cat(str_interp('\n\n**Ingredientes**    ${veg_check} ${vegan_check} ${lac_check} ${gluten_check} \n\n'))
+    cat('\n\n**Ingredientes**\n\n')
     #cat("\n\n**Ingredientes:**\n\n")
     cat(glue(" {df_ingrediente$string} \n\n\n\n"))
-    # rendimento
-    cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
+
     ## preparo
     cat(glue("\n\n **Preparo** \n\n {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))
