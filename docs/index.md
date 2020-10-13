@@ -3,7 +3,10 @@ title: "Receitas da família Mortara"
 author: "por várias pessoas da família Mortara"
 date: ""
 documentclass: book
-github-repo: sarmortara/receitas_mortara
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+github-repo: familia-mortara/receitas_mortara
+url: 'http\://familia-mortara.github.io/receitas_mortara'
 ---
 
 # O que você precisa saber

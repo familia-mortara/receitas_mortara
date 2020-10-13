@@ -26,7 +26,7 @@
              Tempo de preparo de  3 horas*
 
 
-*** 
+
 
 **Ingredientes**    ![](figs/vegetarian.png){width=3%}    
 
@@ -55,7 +55,6 @@
 **Rendimento:** Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha
 
 
-*** 
 
  **Preparo** 
 
@@ -92,7 +91,7 @@
              Tempo de preparo de  1 hora*
 
 
-*** 
+
 
 **Ingredientes**    ![](figs/vegetarian.png){width=3%} ![](figs/vegan.png){width=3%} ![](figs/lactose-free.png){width=3%} ![](figs/gluten-free.png){width=3%} 
 
@@ -109,7 +108,6 @@
 **Rendimento:** 4 porções
 
 
-*** 
 
  **Preparo** 
 
@@ -136,7 +134,7 @@
              *
 
 
-*** 
+
 
 **Ingredientes**    ![](figs/vegetarian.png){width=3%}   ![](figs/gluten-free.png){width=3%} 
 
@@ -162,7 +160,6 @@
 **Rendimento:** Porções para 4 e 20 pessoas
 
 
-*** 
 
  **Preparo** 
 
@@ -189,7 +186,7 @@
              *
 
 
-*** 
+
 
 **Ingredientes**    ![](figs/vegetarian.png){width=3%}    
 
@@ -230,7 +227,6 @@
 
 
 
-*** 
 
  **Preparo** 
 
@@ -269,7 +265,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
              *
 
 
-*** 
+
 
 **Ingredientes**    ![](figs/vegetarian.png){width=3%}    
 
@@ -307,7 +303,6 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 **Rendimento:** 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro
 
 
-*** 
 
  **Preparo** 
 
