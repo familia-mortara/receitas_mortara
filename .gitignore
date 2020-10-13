@@ -4,7 +4,6 @@
 .Ruserdata
 
 *.xlsx
-*.html
 *.rds
 rsconnect/
 libs/
