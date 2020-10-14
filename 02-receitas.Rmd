@@ -1,15 +1,16 @@
 # Receitas
 
+
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, echo = FALSE, results = 'asis')
 library(knitr) # para compilar arquivo
 library(dplyr) # para manipular os dados
 library(glue) # para facilitar a repetição de uma operação
-library(stringr)
-```
-
-```{r objetos}
+library(stringr) # para manipulação de caracteres
+source("functions/diet.R")
 source("scripts/01-convert_data.R")
+
+# Objetos necessarios
 receitas_id <- read.csv("dados/tabela_01.csv")
 ingredientes <- read.csv("dados/tabela_02.csv")
 
@@ -27,21 +28,6 @@ for (categoria in categorias) {
   df <- filter(receitas_id, Categoria == categoria)
   nomes <- unique(df$NOME)  
   
-  dieta <- function(tipo) {
-    tipos <- receitas_id %>% select(starts_with("Dieta")) %>% names()
-    figs <- c("figs/vegetarian.png", 
-                "figs/vegan.png", 
-                "figs/gluten-free.png", 
-                "figs/lactose-free.png")
-    names(figs) <- tipos
-    path_to_image <- figs[names(figs) == tipo]
-    #img <- gsub("path_to_image", path_to_image,
-    #            '<img src="path_to_image" height="0.10" width="0.10" />')
-    img <- paste0('![image alt >](', path_to_image,  '){width=3%}')
-    return(img)
-  }
-  
-  
   for (nome in nomes) {
     
     # apenas dados da receita
@@ -50,15 +36,15 @@ for (categoria in categorias) {
     
     # tipo de dieta
     veg_check <- ifelse(df_receita$Dieta_Vegetariana == 'Sim', 
-                        dieta("Dieta_Vegetariana"), "")
+                        diet("Dieta_Vegetariana"), "")
     lac_check <- ifelse(df_receita$Dieta_Sem_lactose == 'Sim', 
-                        dieta("Dieta_Sem_lactose"), "")
+                        diet("Dieta_Sem_lactose"), "")
     gluten_check <- ifelse(df_receita$Dieta_Sem_glúten == 'Sim', 
-                        dieta("Dieta_Sem_glúten"), "")
+                        diet("Dieta_Sem_glúten"), "")
     vegan_check <- ifelse(df_receita$Dieta_Vegana == 'Sim', 
-                        dieta("Dieta_Vegana"), "")
+                        diet("Dieta_Vegana"), "")
     
-    # Receita
+    # Receita info -------------------------------------------------------------
     ## nome
     cat(glue("\n\n### {nome}\n\n"))
     ##quem
@@ -71,15 +57,32 @@ for (categoria in categorias) {
     # rendimento
     cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
     #cat(str_interp('<br>${veg_check} ${vegan_check} ${lac_check}  ${gluten_check} \n\n'))
-    ## ingredientes e tipo de dieta
+    
+    # ingredientes -------------------------------------------------------------
     cat("#### Ingredientes\n\n")
     cat(glue(" {df_ingrediente$string} \n\n\n\n"))
-    ## preparo
-    cat(glue("#### Preparo \n\n {df_receita$preparo_string}\n\n\n\n"))
+    ## preparo -----------------------------------------------------------------
+    cat(glue(" \n\n#### Preparo \n\n {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))
-    cat(glue("{df_receita$fonte_string}\n\n"))
+    cat(glue("{df_receita$fonte_string}\n\n\n\n"))
   }
 }  
+
 ```
 
+:::::: {.cols data-latex=""}
 
+::: {.col data-latex="{0.55\textwidth}"}
+TEXTO 1
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+:::
+
+::: {.col data-latex="{0.4\textwidth}"}
+TEXTO 2
+:::
+::::::

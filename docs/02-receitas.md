@@ -5,7 +5,6 @@
 
 
 
-
 ## Biscoitos
 
 
@@ -51,6 +50,7 @@
  -   Açúcar cristal (suficiente para envolver os biscoitinhos) 
 
 
+
 #### Preparo 
 
  
@@ -70,6 +70,8 @@
 
 
 **Fonte**: Tio Valério
+
+
 
 ## Geléias e Compotas
 
@@ -95,10 +97,11 @@
 - 1 kg Morango 
 
 
- - 1/2 kg Açúcar 
+ - ${\frac{1}{2}}$ kg Açúcar 
 
 
  - 5 Gotas Limão 
+
 
 
 #### Preparo 
@@ -110,6 +113,8 @@
 
 
 **Fonte**: Vó Martha
+
+
 
 ## Outros Pratos Salgados
 
@@ -133,7 +138,7 @@
 - 1 Lata Milho verde 
 
 
- - 1 e 1/2 Xícara Leite 
+ - 1 e ${\frac{1}{2}}$ Xícara Leite 
 
 
  - 2 Un Ovos 
@@ -148,6 +153,7 @@
  - 1 Pitada Sal 
 
 
+
 #### Preparo 
 
  Escorrer o milho e refogar na manteiga. Adicionar o leite, o açúcar e deixe esfriar. Adicionar os ovos batidos, colocar em uma travessa untada e levar ao forno. Assar a xºC, até endurecer. Deve ficar úmido. Não assar demais para não secar. 
@@ -157,6 +163,8 @@
 
 
 **Fonte**: Ficheiros de Receitas de Carmen e Martha
+
+
 
 ## Tortas e Bolos Doces
 
@@ -210,6 +218,7 @@
  -   Baunilha 
 
 
+
 #### Preparo 
 
  
@@ -228,13 +237,15 @@
 
  enquanto creme de confeiteiro esfria, preparar a mistura de ricota e frutas. Amassar bem a ricota e misturar com as gemas de ovo, o açúcar e a canela. Quando mistura estiver homogênea - ricota não pode ficar pedaçuda -, adicionar o creme de confeiteiro já frio e as frutas cristalizadas picadas. À esta mistura, adicionar em três etapas as claras em neve, misturando com cuidado para não perder o ar;
 Preaquecer o forno;
-Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milímetros de espessura, forrar a forma, verter o creme de ricota. Abrir a massa que reservou, cortar em tiras e colocar sobre o recheio formando uma espécie de grade sobre ele. Assar em forno alto e preaquecido por aproximadamente 30 minutos. Espere esfriar, desenforme e sirva com açúcar de confeiteiro polvilhado.
+Reservar ${\frac{1}{3}}$ da massa para a decoração. Abrir os ${\frac{2}{3}}$ de massa com poucos milímetros de espessura, forrar a forma, verter o creme de ricota. Abrir a massa que reservou, cortar em tiras e colocar sobre o recheio formando uma espécie de grade sobre ele. Assar em forno alto e preaquecido por aproximadamente 30 minutos. Espere esfriar, desenforme e sirva com açúcar de confeiteiro polvilhado.
 
 
 
 
 
 **Fonte**: Ficheiro de Receitas de Martha & Il Talismano della Felicità
+
+
 
 ### Torta Bilbolbul
 *Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=3%}   
@@ -283,6 +294,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
  -   Farinha finíssima de rosca (apenas o suficiente para untar) 
 
 
+
 #### Preparo 
 
  Untar, enfarinhar a forma e prequecer forno (Talismano diz "bem quente"). Numa tigela, misturar todos os ingredientes secos e as raspas casca de laranja. Incorporar o leite à mistura, mexendo com uma colher de pau apenas o necessário para obter uma massa lisa e homogênea. A massa não pode ser muito trabalhada. Colocar a massa na forma untada e assar em forno alto por mais ou 30 minutos. Deve ser retirada do forno quando ainda não estiver dura ou seca.
@@ -294,4 +306,19 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 
 **Fonte**: Il Talismano della Felicità
 
+:::::: {.cols data-latex=""}
 
+::: {.col data-latex="{0.55\textwidth}"}
+TEXTO 1
+:::
+
+::: {.col data-latex="{0.05\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+:::
+
+::: {.col data-latex="{0.4\textwidth}"}
+TEXTO 2
+:::
+::::::

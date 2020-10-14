@@ -3,6 +3,9 @@
 # Bibliotecas
 library(openxlsx)
 library(dplyr)
+library(stringr)
+source("functions/fraction.R")
+source("functions/subitem.R")
 
 # Lendo os dados
 ## planilha original aqui: https://docs.google.com/spreadsheets/d/1xiJLw7yNojqxMAtKIie7MqhOaWVAt0RJZ0QW4OnhoCo/edit#gid=1047674169
@@ -49,20 +52,9 @@ receitas_id$rendimento_string <- ifelse(is.na(receitas_id$Rendimento),
 
 ## preparo
 # identificar subitem
-subitem <- function(x){
-  if (str_detect(x, "<")) {
-    item_name <- qdapRegex::ex_between(x, "<", ">")[[1]]
-    item_original <- paste0("< ", item_name , " >")
-    item_replace <- paste0("\n\n *", item_name , "* \n\n")
-    names(item_replace) <- item_original
-    string <- str_replace_all(x, item_replace)
-  } else {
-    string <- x
-  }
-  return(string)
-}
-
-receitas_id$preparo_string <- unlist(lapply(receitas_id$Preparo, subitem))
+receitas_id$preparo_string <- unlist(lapply(receitas_id$Preparo, subitem)) %>%
+  lapply(fraction) %>%
+  unlist()
 
 # formatando os ingredientes para entrada no texto -----------------------------
 ingredientes[is.na(ingredientes)] <- ""
@@ -74,7 +66,9 @@ ingredientes$string <- paste("-",
                                     gsub("\\.0", "", ingredientes$Quantidade_original),
                                     ""),
                              ingredientes$Un_medida_original,
-                             ingredientes$Ingrediente)
+                             ingredientes$Ingrediente) %>%
+  lapply(fraction) %>%
+  unlist()
 #"\n\n\n\n")
 
 write.csv(receitas_id, "dados/tabela_01.csv", row.names = FALSE)
