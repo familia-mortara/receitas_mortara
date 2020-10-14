@@ -72,10 +72,10 @@ for (categoria in categorias) {
     cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
     #cat(str_interp('<br>${veg_check} ${vegan_check} ${lac_check}  ${gluten_check} \n\n'))
     ## ingredientes e tipo de dieta
-    cat("\n\n**Ingredientes:**\n\n")
+    cat("#### Ingredientes\n\n")
     cat(glue(" {df_ingrediente$string} \n\n\n\n"))
     ## preparo
-    cat(glue("\n\n **Preparo** \n\n {df_receita$preparo_string}\n\n\n\n"))
+    cat(glue("#### Preparo \n\n {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))
     cat(glue("{df_receita$fonte_string}\n\n"))
   }

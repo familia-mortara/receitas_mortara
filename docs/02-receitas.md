@@ -28,9 +28,7 @@
 **Rendimento**: Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha
 
 
-
-
-**Ingredientes:**
+#### Ingredientes
 
 - 500  Farinha de trigo branca 
 
@@ -53,8 +51,7 @@
  -   Açúcar cristal (suficiente para envolver os biscoitinhos) 
 
 
-
- **Preparo** 
+#### Preparo 
 
  
 
@@ -93,9 +90,7 @@
 **Rendimento**: 4 porções
 
 
-
-
-**Ingredientes:**
+#### Ingredientes
 
 - 1 kg Morango 
 
@@ -106,8 +101,7 @@
  - 5 Gotas Limão 
 
 
-
- **Preparo** 
+#### Preparo 
 
  Cortar os morangos em rodelas e levar ao fogo com o açúcar e as gotas de limão. Mexer constantemente e deixar cozinhar até encorpar.
 
@@ -134,9 +128,7 @@
 **Rendimento**: Porções para 4 e 20 pessoas
 
 
-
-
-**Ingredientes:**
+#### Ingredientes
 
 - 1 Lata Milho verde 
 
@@ -156,8 +148,7 @@
  - 1 Pitada Sal 
 
 
-
- **Preparo** 
+#### Preparo 
 
  Escorrer o milho e refogar na manteiga. Adicionar o leite, o açúcar e deixe esfriar. Adicionar os ovos batidos, colocar em uma travessa untada e levar ao forno. Assar a xºC, até endurecer. Deve ficar úmido. Não assar demais para não secar. 
 
@@ -184,9 +175,7 @@
 
 
 
-
-
-**Ingredientes:**
+#### Ingredientes
 
 - 160 g Manteiga 
 
@@ -221,8 +210,7 @@
  -   Baunilha 
 
 
-
- **Preparo** 
+#### Preparo 
 
  
 
@@ -263,9 +251,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 **Rendimento**: 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro
 
 
-
-
-**Ingredientes:**
+#### Ingredientes
 
 - 200 g Farinha de trigo branca, peneirada 
 
@@ -297,8 +283,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
  -   Farinha finíssima de rosca (apenas o suficiente para untar) 
 
 
-
- **Preparo** 
+#### Preparo 
 
  Untar, enfarinhar a forma e prequecer forno (Talismano diz "bem quente"). Numa tigela, misturar todos os ingredientes secos e as raspas casca de laranja. Incorporar o leite à mistura, mexendo com uma colher de pau apenas o necessário para obter uma massa lisa e homogênea. A massa não pode ser muito trabalhada. Colocar a massa na forma untada e assar em forno alto por mais ou 30 minutos. Deve ser retirada do forno quando ainda não estiver dura ou seca.
 
