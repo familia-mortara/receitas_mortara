@@ -305,20 +305,3 @@ Reservar ${\frac{1}{3}}$ da massa para a decoração. Abrir os ${\frac{2}{3}}$ d
 
 
 **Fonte**: Il Talismano della Felicità
-
-:::::: {.cols data-latex=""}
-
-::: {.col data-latex="{0.55\textwidth}"}
-TEXTO 1
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\ 
-<!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
-
-::: {.col data-latex="{0.4\textwidth}"}
-TEXTO 2
-:::
-::::::

@@ -69,20 +69,3 @@ for (categoria in categorias) {
 }  
 
 ```
-
-:::::: {.cols data-latex=""}
-
-::: {.col data-latex="{0.55\textwidth}"}
-TEXTO 1
-:::
-
-::: {.col data-latex="{0.05\textwidth}"}
-\ 
-<!-- an empty Div (with a white space), serving as
-a column separator -->
-:::
-
-::: {.col data-latex="{0.4\textwidth}"}
-TEXTO 2
-:::
-::::::
