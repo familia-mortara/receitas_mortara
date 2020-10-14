@@ -11,11 +11,7 @@
 
 
 ### Biscoitinhos de Cerveja do Natal
-*Receita de Tia Elisa*
-
-
-![](figs/vegetarian.png){width=3%}    
-
+*Receita de Tia Elisa* ![image alt >](figs/vegetarian.png){width=4%}   
 
 
  > "Eu gosto mais daqueles que ficam mais escuros, mas isto é preferência individual" Tio Valerio 
@@ -24,14 +20,17 @@
 
 
 
-*É **trabalhoso**!
-             Tempo de preparo de 3 horas.
-             Rendimento: Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha*
+*É **trabalhosa**!
+             Tempo de preparo de 3 horas.*
+
+
+
+**Rendimento**: Para cada lata (porção familiar do Natal), entre 250 e 300 g de farinha
 
 
 
 
-**Ingredientes**
+**Ingredientes:**
 
 - 500  Farinha de trigo branca 
 
@@ -70,34 +69,33 @@
 
 
 
-**Dica:** Fazer com alguns dias de antecedência e guardar em um pote hermético.
+**Dica**: Fazer com alguns dias de antecedência e guardar em um pote hermético.
 
 
-**Fonte:** Tio Valério
+**Fonte**: Tio Valério
 
 ## Geléias e Compotas
 
 
 
 ### Geléia de Morango
-*Receita de Vó Martha*
-
-
-![](figs/vegetarian.png){width=3%} ![](figs/vegan.png){width=3%} ![](figs/lactose-free.png){width=3%} ![](figs/gluten-free.png){width=3%} 
-
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%} ![image alt >](figs/vegan.png){width=4%} ![image alt >](figs/lactose-free.png){width=4%}![image alt >](figs/gluten-free.png){width=4%} 
 
 
  > "Tantos lanches da tarde à base de torrada com geléia e manteiga na casa da vó" Sara
 
 
-*É **pouco trabalhoso**!
-             Tempo de preparo de 1 hora.
-             Rendimento: 4 porções*
+*É **pouco trabalhosa**!
+             Tempo de preparo de 1 hora.*
+
+
+
+**Rendimento**: 4 porções
 
 
 
 
-**Ingredientes**
+**Ingredientes:**
 
 - 1 kg Morango 
 
@@ -114,32 +112,31 @@
  Cortar os morangos em rodelas e levar ao fogo com o açúcar e as gotas de limão. Mexer constantemente e deixar cozinhar até encorpar.
 
 
-**Dica:** Fazer em grande quantidade pois é uma delícia
+**Dica**: Fazer em grande quantidade pois é uma delícia
 
 
-**Fonte:** Vó Martha
+**Fonte**: Vó Martha
 
 ## Outros Pratos Salgados
 
 
 
 ### Sufle/Souffle de Milho Verde
-*Receita de Vó Martha e Carmen*
-
-
-![](figs/vegetarian.png){width=3%}   ![](figs/gluten-free.png){width=3%} 
+*Receita de Vó Martha e Carmen* ![image alt >](figs/vegetarian.png){width=4%}  ![image alt >](figs/gluten-free.png){width=4%} 
 
 
 
-
-*É **nada trabalhoso**!
-             
-             Rendimento: Porções para 4 e 20 pessoas*
+*É **nada trabalhosa**!
+             *
 
 
 
+**Rendimento**: Porções para 4 e 20 pessoas
 
-**Ingredientes**
+
+
+
+**Ingredientes:**
 
 - 1 Lata Milho verde 
 
@@ -165,32 +162,31 @@
  Escorrer o milho e refogar na manteiga. Adicionar o leite, o açúcar e deixe esfriar. Adicionar os ovos batidos, colocar em uma travessa untada e levar ao forno. Assar a xºC, até endurecer. Deve ficar úmido. Não assar demais para não secar. 
 
 
-**Dica:** Vovó Martha servia com escalopinho de filé mignon, com molho de vinho
+**Dica**: Vovó Martha servia com escalopinho de filé mignon, com molho de vinho
 
 
-**Fonte:** Ficheiros de Receitas de Carmen e Martha
+**Fonte**: Ficheiros de Receitas de Carmen e Martha
 
 ## Tortas e Bolos Doces
 
 
 
 ### Crostata di Ricotta
-*Receita de Vó Martha*
-
-
-![](figs/vegetarian.png){width=3%}    
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%}   
 
 
 
-
-*É **trabalhoso**!
-             
+*É **trabalhosa**!
              *
 
 
 
 
-**Ingredientes**
+
+
+
+
+**Ingredientes:**
 
 - 160 g Manteiga 
 
@@ -250,27 +246,26 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 
 
 
-**Fonte:** Ficheiro de Receitas de Martha & Il Talismano della Felicità
+**Fonte**: Ficheiro de Receitas de Martha & Il Talismano della Felicità
 
 ### Torta Bilbolbul
-*Receita de Vó Martha*
-
-
-![](figs/vegetarian.png){width=3%}    
-
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%}   
 
 
  > "Era um dos bolos preferidos do vovô Guido. Não precisava de prato nem talheres"
 
 
-*É **nada trabalhoso**!
-             
-             Rendimento: 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro*
+*É **nada trabalhosa**!
+             *
+
+
+
+**Rendimento**: 6 porções - Fazer em forma alta de aproximadamente 20 cm de diâmetro
 
 
 
 
-**Ingredientes**
+**Ingredientes:**
 
 - 200 g Farinha de trigo branca, peneirada 
 
@@ -309,9 +304,9 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 
 
 
-**Dica:** Servir com creme de leite batido
+**Dica**: Servir com creme de leite batido
 
 
-**Fonte:** Il Talismano della Felicità
+**Fonte**: Il Talismano della Felicità
 
 

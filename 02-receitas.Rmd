@@ -37,7 +37,7 @@ for (categoria in categorias) {
     path_to_image <- figs[names(figs) == tipo]
     #img <- gsub("path_to_image", path_to_image,
     #            '<img src="path_to_image" height="0.10" width="0.10" />')
-    img <- paste0('![](', path_to_image,  '){width=3%}')
+    img <- paste0('![image alt >](', path_to_image,  '){width=4%}')
     return(img)
   }
   
@@ -62,19 +62,18 @@ for (categoria in categorias) {
     ## nome
     cat(glue("\n\n### {nome}\n\n"))
     ##quem
-    cat(glue("*Receita de {df_receita$Quem_fazia}*\n\n\n\n"))
-    cat(str_interp('${veg_check} ${vegan_check} ${lac_check} ${gluten_check} \n\n'))
+    cat(glue("*Receita de {df_receita$Quem_fazia}* {veg_check} {vegan_check} {lac_check}{gluten_check} \n\n"))
     ## memoria
     cat(str_interp('${df_receita$memoria_string}'))
-    ## trabalho, tempo de preparo e rendimento
+    ## trabalho e tempo de preparo
     cat(glue("\n\n\n\n*É **{tolower(df_receita$Trabalho)}**!
-             {df_receita$Tempo_preparo_string}
-             {df_receita$rendimento_string}*\n\n\n\n"))
+             {df_receita$Tempo_preparo_string}*\n\n\n\n"))
+    # rendimento
+    cat(glue("\n\n{df_receita$rendimento_string}\n\n\n\n"))
+    #cat(str_interp('<br>${veg_check} ${vegan_check} ${lac_check}  ${gluten_check} \n\n'))
     ## ingredientes e tipo de dieta
-    cat('\n\n**Ingredientes**\n\n')
-    #cat("\n\n**Ingredientes:**\n\n")
+    cat("\n\n**Ingredientes:**\n\n")
     cat(glue(" {df_ingrediente$string} \n\n\n\n"))
-
     ## preparo
     cat(glue("\n\n **Preparo** \n\n {df_receita$preparo_string}\n\n\n\n"))
     cat(glue("{df_receita$dicas_string}\n\n\n\n"))

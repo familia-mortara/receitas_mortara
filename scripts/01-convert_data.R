@@ -34,17 +34,17 @@ receitas_id$memoria_string <- ifelse(is.na(receitas_id$Memórias),
 ## dicas
 receitas_id$dicas_string <- ifelse(is.na(receitas_id$`Dicas_&_Variações`),
                                    "",
-                                   paste("**Dica:**", receitas_id$`Dicas_&_Variações`))
+                                   paste("**Dica**:", receitas_id$`Dicas_&_Variações`))
 
 ## fonte
 receitas_id$fonte_string <- ifelse(is.na(receitas_id$Fonte),
                                    "",
-                                   paste("**Fonte:**", receitas_id$Fonte))
+                                   paste("**Fonte**:", receitas_id$Fonte))
 
 ## rendimento
 receitas_id$rendimento_string <- ifelse(is.na(receitas_id$Rendimento),
                                    "",
-                                   paste("Rendimento:", receitas_id$Rendimento))
+                                   paste("**Rendimento**:", receitas_id$Rendimento))
 
 
 ## preparo

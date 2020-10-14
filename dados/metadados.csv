@@ -10,7 +10,7 @@
 "Quem_fazia","Anita; Brigida (Carmen); Carmen; Tia Elisa; Martha; Raquel; Valéria, Tia Zita","tabela_01","Restringir valores"
 "Fonte","Il Talismano; ficheiro vó Martha; tio Valério; Livro de Receitas da Raquel; Anita; Valéria","tabela_01","Restringir valores"
 "Memórias","Memória entre aspas seguida do nome. Mais de uma memória separar memórias com >. Exemplo: > ""Uma delícia!"" Fulana. > ""Muito bom mesmo!"" Ciclana.  ","tabela_01",NA
-"Trabalho","Nada trabalhoso; Pouco trabalhoso; Trabalhoso; Muito trabalhoso; Nossa, que trabalhoso!","tabela_01",NA
+"Trabalho","Nada trabalhosa, Pouco trabalhosa, Trabalhosa, Muito trabalhosa, Nossa que trabalhosa!","tabela_01",NA
 "Tempo_preparo","Em horas","tabela_01",NA
 "Rendimento",NA,"tabela_01",NA
 "Rendimento_outras_porcoes","Rendimento se houver colunas Quantidade_outras_porcoes, Un_medida_outras_porcoes na tabela 02","tabela_01",NA
