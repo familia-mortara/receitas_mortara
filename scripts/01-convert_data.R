@@ -67,12 +67,12 @@ receitas_id$preparo_string <- unlist(lapply(receitas_id$Preparo, subitem))
 # formatando os ingredientes para entrada no texto -----------------------------
 ingredientes[is.na(ingredientes)] <- ""
 
-if (knitr:::is_latex_output()) {space_string <- "  "} else {space_string <- "\\s"}
+# if (knitr:::is_latex_output()) {space_string <- "  "} else {space_string <- "\\s"}
 
 ingredientes$string <- paste("-",
                              ifelse(ingredientes$Quantidade_original != "",
                                     gsub("\\.0", "", ingredientes$Quantidade_original),
-                                    space_string),
+                                    ""),
                              ingredientes$Un_medida_original,
                              ingredientes$Ingrediente)
 #"\n\n\n\n")

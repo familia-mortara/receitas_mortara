@@ -11,7 +11,7 @@
 
 
 ### Biscoitinhos de Cerveja do Natal
-*Receita de Tia Elisa* ![image alt >](figs/vegetarian.png){width=4%}   
+*Receita de Tia Elisa* ![image alt >](figs/vegetarian.png){width=3%}   
 
 
  > "Eu gosto mais daqueles que ficam mais escuros, mas isto é preferência individual" Tio Valerio 
@@ -44,13 +44,13 @@
  - 1 Colher de sopa (rasa) Fermento químico em pó 
 
 
- - \s  Açúcar refinado 
+ -   Açúcar refinado 
 
 
- - \s  Sal 
+ -   Sal 
 
 
- - \s  Açúcar cristal (suficiente para envolver os biscoitinhos) 
+ -   Açúcar cristal (suficiente para envolver os biscoitinhos) 
 
 
 
@@ -79,7 +79,7 @@
 
 
 ### Geléia de Morango
-*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%} ![image alt >](figs/vegan.png){width=4%} ![image alt >](figs/lactose-free.png){width=4%}![image alt >](figs/gluten-free.png){width=4%} 
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=3%} ![image alt >](figs/vegan.png){width=3%} ![image alt >](figs/lactose-free.png){width=3%}![image alt >](figs/gluten-free.png){width=3%} 
 
 
  > "Tantos lanches da tarde à base de torrada com geléia e manteiga na casa da vó" Sara
@@ -122,7 +122,7 @@
 
 
 ### Sufle/Souffle de Milho Verde
-*Receita de Vó Martha e Carmen* ![image alt >](figs/vegetarian.png){width=4%}  ![image alt >](figs/gluten-free.png){width=4%} 
+*Receita de Vó Martha e Carmen* ![image alt >](figs/vegetarian.png){width=3%}  ![image alt >](figs/gluten-free.png){width=3%} 
 
 
 
@@ -172,7 +172,7 @@
 
 
 ### Crostata di Ricotta
-*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%}   
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=3%}   
 
 
 
@@ -200,13 +200,13 @@
  - 120 g Fécula de Batata ou Amido de milho 
 
 
- - \s  Raspa de casca de um limão 
+ -   Raspa de casca de um limão 
 
 
  - 2 Un Gema 
 
 
- - \s  Clara 
+ -   Clara 
 
 
  - 200 mL Leite 
@@ -215,10 +215,10 @@
  - 300 g Ricota 
 
 
- - \s  Frutas cristalizadas e canela (a gosto) 
+ -   Frutas cristalizadas e canela (a gosto) 
 
 
- - \s  Baunilha 
+ -   Baunilha 
 
 
 
@@ -249,7 +249,7 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
 **Fonte**: Ficheiro de Receitas de Martha & Il Talismano della Felicità
 
 ### Torta Bilbolbul
-*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=4%}   
+*Receita de Vó Martha* ![image alt >](figs/vegetarian.png){width=3%}   
 
 
  > "Era um dos bolos preferidos do vovô Guido. Não precisava de prato nem talheres"
@@ -288,13 +288,13 @@ Reservar 1/3 da massa para a decoração. Abrir os 2/3 de massa com poucos milí
  - 250 mL Leite 
 
 
- - \s  Raspas de casca de uma laranja 
+ -   Raspas de casca de uma laranja 
 
 
- - \s  Manteiga (apenas o suficiente para untar) 
+ -   Manteiga (apenas o suficiente para untar) 
 
 
- - \s  Farinha finíssima de rosca (apenas o suficiente para untar) 
+ -   Farinha finíssima de rosca (apenas o suficiente para untar) 
 
 
 
